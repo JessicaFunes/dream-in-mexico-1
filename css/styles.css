@@ -4,6 +4,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	
 }
 .navigation {
 	width: 100%;
@@ -15,8 +16,6 @@ body {
 .navigation-container {
 	width: 1000px;
 	margin: 0 auto;
-	background-color: white;
-
 }
 .navigation-logo {
 
@@ -24,8 +23,8 @@ body {
 	vertical-align: middle;
 }
 .navigation-logoImage {
-	width:  100px;
-	height: 50px;
+	width:  60px;
+	height: auto;
 	vertical-align: middle;
 	display: inline-block;
 
@@ -51,11 +50,9 @@ body {
 .navigation-link:hover {
 	background-color: rgb(200,200,200);
 }
-
 /*
  * hero Component
  */
-
  .hero {
  	display: block;
  	width: 100%;
@@ -74,3 +71,47 @@ body {
 	display: block;
 	text-align: center;
 }
+/*
+ * Description component
+ */
+.description {
+	text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/*
+ * Contact Component
+ */
+.contact {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+.contact-container {
+	border:1px solid black;
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+}
+.contact-title {
+	text-align: center;
+	padding: 0;
+}
+.contact-form {
+	background-color: rgb(240,240,240);
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 500px;
+}
+.contact-formInput {
+	border: 1px solid rgb(200, 200, 200);
+	box-sizing: content-box;
+	border-radius: 4px;
+	display: block;
+	margin: 16px;
+	padding: 16px;
+	width: 100%;
+}
+
+
+
